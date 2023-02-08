@@ -1,0 +1,23 @@
+#pragma once
+#include <iostream>
+#include <vector>
+
+namespace Engine {
+	class Printer
+	{
+	public:
+		Printer(std::shared_ptr<IVehicle> &vec) : _vec(vec) {} // сложили весь транспорт
+
+		
+		void printVehicle(std::vector<IVehicle> & IV ) {
+			std::vector<IVehicle> IV;
+			IV.push_back()
+
+		}
+
+	private:
+		std::shared_ptr<IVehicle> _vec; // поле умных указателей
+	};
+
+	
+}
